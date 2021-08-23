@@ -10,14 +10,14 @@ using System.Threading.Tasks;
 //
 namespace itsrainingmen
 {
-	[Library("itsrainingmen", Title = "itsrainingmen")]
+	[Library( "itsrainingmen", Title = "itsrainingmen" )]
 	public partial class itsrainingmen : Sandbox.Game
 	{
 		public itsrainingmen()
 		{
 			if ( IsServer )
 			{
-				ConsoleSystem.Run("playsound cockroachmusic");
+				ConsoleSystem.Run("playsound itsrainingmen");
 			}
 
 			if ( IsClient )

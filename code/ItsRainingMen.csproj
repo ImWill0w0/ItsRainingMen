@@ -19,14 +19,14 @@
 
   <PropertyGroup>
 	<OutputPath>../.intermediate/</OutputPath>
-	<DocumentationFile>../.intermediate/netstandard2.0/itsrainingmen.xml</DocumentationFile>
+	<DocumentationFile>../.intermediate/netstandard2.0/ItsRainingMen.xml</DocumentationFile>
   </PropertyGroup>
 
 	<ItemGroup>
-		<Analyzer Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Generator.dll" />
-		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.System.dll" />
-		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Engine.dll" />
-		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Game.dll" />
+		<Analyzer Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Generator.dll"/>
+		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.System.dll"/>
+		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Engine.dll"/>
+		<Reference Include="E:/SteamLibrary/steamapps/common/sbox/bin/managed/Sandbox.Game.dll"/>
 	</ItemGroup>
 
   <ItemGroup>
