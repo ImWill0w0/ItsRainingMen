@@ -18,6 +18,7 @@ namespace itsrainingmen
 			if ( IsServer )
 			{
 				ConsoleSystem.Run("playsound itsrainingmen");
+				ConsoleSystem.Run( "host_timescale 0.25" );
 			}
 
 			if ( IsClient )
